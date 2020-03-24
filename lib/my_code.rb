@@ -3,10 +3,10 @@ def map_to_negativize(array)
   negArray = []
   n = 0 
   while n < array.count
-  negArray[n] = array[n] * -1
-  n +=1 
-end
-negArray
+    negArray[n] = array[n] * -1
+    n +=1 
+  end
+  negArray
 end
 
 def map_to_no_change(dune)
